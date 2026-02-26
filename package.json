@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon backend/server.js",
-    "start": "node backend/server.js",
+    "dev": "nodemon mathWebsite-backend/server.js",
+    "start": "node mathWebsite-backend/server.js",
     "build": "npm install && npm install --prefix mathWebsite && npm run build --prefix mathWebsite"
   },
   "keywords": [],
