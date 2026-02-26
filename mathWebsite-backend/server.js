@@ -18,12 +18,6 @@ app.use(cors({ origin: ["https://martinwebsite.onrender.com/","http://localhost:
 
 app.use(express.json());
 
-const __dirname = path.resolve()
-app.use(express.static(path.join(__dirname,"/mathWebsite/dist")));
-app.get(/.*/,(req,res)=>{
-  res.sendFile(path.join(__dirname,"mathWebsite","dist","index.html"))
-})
-
 app.use((req, res, next) => {
     console.log(req.method, req.url);
     next();
@@ -36,6 +30,13 @@ app.use("/api/tuition", tuitionRoutes);
 
 
 app.get("/", (req, res) => res.send("Backend is running ✅"));
+
+const __dirname = path.resolve()
+app.use(express.static(path.join(__dirname,"/mathWebsite/dist")));
+
+app.get(/.*/,(req,res)=>{
+  res.sendFile(path.join(__dirname,"mathWebsite","dist","index.html"))
+})
 
 async function start() {
   try {
