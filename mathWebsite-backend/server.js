@@ -20,7 +20,7 @@ app.use(express.json());
 
 const __dirname = path.resolve()
 app.use(express.static(path.join(__dirname,"/mathWebsite/dist")));
-app.get("/.*/",(req,res)=>{
+app.get(/.*/,(req,res)=>{
   res.sendFile(path.join(__dirname,"mathWebsite","dist","index.html"))
 })
 
