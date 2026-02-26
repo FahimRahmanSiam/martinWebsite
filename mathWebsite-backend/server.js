@@ -13,14 +13,14 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors({ origin: "http://localhost:5173", credentials: true })); 
-// change during deployment to - >origin: "https://yourdomain.com"
+app.use(cors({ origin: true, credentials: true })); 
+// change during deployment to - >origin: "http://localhost:5173"
 
 app.use(express.json());
 
 const __dirname = path.resolve()
 app.use(express.static(path.join(__dirname,"/mathWebsite/dist")));
-app.get("*",(req,res)=>{
+app.get("/.*/",(req,res)=>{
   res.sendFile(path.join(__dirname,"mathWebsite","dist","index.html"))
 })
 
