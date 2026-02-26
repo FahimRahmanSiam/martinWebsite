@@ -1,0 +1,17 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="90" fill="#1E88E5"/>
+  
+  <!-- Plus -->
+  <text x="130" y="165" font-size="120" font-weight="bold" fill="white">+</text>
+
+  <!-- Multiply -->
+  <text x="290" y="165" font-size="120" font-weight="bold" fill="white">×</text>
+
+  <!-- Fraction 1/x -->
+  <text x="150" y="330" font-size="120" font-weight="bold" fill="#FFC107">1</text>
+  <line x1="150" y1="345" x2="230" y2="345" stroke="#FFC107" stroke-width="12" />
+  <text x="170" y="430" font-size="120" font-weight="bold" fill="#FFC107">x</text>
+
+  <!-- Square root -->
+  <text x="280" y="380" font-size="150" font-weight="bold" fill="white">√x</text>
+</svg>

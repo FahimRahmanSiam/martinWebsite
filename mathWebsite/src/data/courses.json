@@ -1,0 +1,528 @@
+[
+  {
+  "id": "level1",
+  "level": "Level 1",
+  "gradeRange": "Bedrock",
+  "title": "Foundations of Number Sense",
+  "banner": "../assets/level1.png",
+  "duration": "20 weeks",
+  "sessionsPerWeek": 2,
+
+  "targetGrades": "Grades 3–4",
+  "courseTitleFull": "Accelerated Math – Level 1: Bedrock",
+  "coursePhilosophy": "This course treats mathematics as a whole structure where each building block is carefully designed and made.",
+  "longTermObjective": "Students work one to two grade levels ahead through consistency rather than pressure.",
+
+  "instructionalBackbone": {
+    "curriculum": "Saxon Math 3",
+    "whyThisCurriculum": [
+      "Incremental structure",
+      "Cumulative review",
+      "Mastery through consistent practice"
+    ]
+  },
+
+  "formatDetails": {
+    "format": "In person",
+    "sessionLengthMinutes": 90,
+    "maxClassSize": 4,
+    "smallGroupBenefit": "Individualized pacing, close monitoring, and targeted feedback."
+  },
+
+  "placementAndPacing": {
+    "placementAssessment": true,
+    "placementApproach": "Students are placed at a level they can handle confidently (even if slightly below grade level) to ensure early success and reduce frustration.",
+    "accelerationApproach": "Accelerate steadily and sustainably over time."
+  },
+
+  "coreTrainingFocus": [
+    "Addition and subtraction fluency (including regrouping and multi-step computation)",
+    "Early multiplication and division concepts (readiness for formal algorithms)",
+    "Place-value mastery (working with larger numbers)",
+    "Introduction to fractions (halves, thirds, fourths, and fractional thinking)",
+    "Multi-step word problems (reading, planning, execution across mixed skills)"
+  ],
+
+  "accuracyThenSpeed": "Speed is developed only after accuracy is established; precision is non-negotiable and efficiency is earned.",
+
+  "homework": {
+    "required": true,
+    "expectedPerDayMinutes": 30,
+    "notes": "Daily practice supports steady progress and long-term retention."
+  },
+
+  "assessment": {
+    "ongoing": true,
+    "dailyInClassPractice": "Immediate feedback during classwork.",
+    "weeklyQuizzesOrExams": true,
+    "individualizedSupplementalPractice": "Assigned based on student performance and assessment results."
+  },
+
+  "parentCommunication": {
+    "weeklyProgressReports": true,
+    "purpose": "Accountability and transparency throughout the course."
+  },
+
+  "endOfCourseOutcomes": [
+    "Solve multi-step arithmetic and word problems independently and accurately",
+    "Demonstrate strong mental math skills and number sense",
+    "Explain mathematical thinking clearly using appropriate vocabulary",
+    "Approach increasingly complex problems with confidence rather than avoidance",
+    "Transition smoothly into more advanced or accelerated math coursework"
+  ],
+
+  "studentFit": {
+    "designedFor": [
+      "Students who can attend consistently",
+      "Students willing to complete daily practice",
+      "Students who benefit from structure, accountability, and high academic expectations"
+    ],
+    "notAppropriateFor": [
+      "Students who struggle significantly with focus during instruction",
+      "Students unwilling to practice outside of class"
+    ],
+    "note": "Instruction is academic and structured; behavior management is not a component of the program."
+  },
+
+  "whatThisCourseDoesNotPromise": [
+    "Guaranteed placement into gifted or specialty programs",
+    "Progress without consistent effort and practice",
+    "Accommodation for special educational needs beyond the scope of the course design"
+  ],
+
+  "studentsWillLearn": [
+    "Confidently work with larger numbers",
+    "Choose and explain strategies for adding & subtracting",
+    "Read word problems and decide which operation to use"
+  ],
+  "idealFor": [
+    "Students who need stronger basics",
+    "Kids who feel nervous about math tests"
+    ]
+  },
+
+  {
+    "id": "level2",
+    "level": "Level 2",
+    "gradeRange": "Copper",
+    "title": "Accuracy, Reasoning & Problem Solving",
+    "banner": "../assets/level2.png",
+    "duration": "20 weeks",
+    "sessionsPerWeek": 2,
+  
+    "targetGrades": "Grades 4–5",
+    "courseTitleFull": "Accelerated Math – Level 2: Copper",
+    "coursePhilosophy": "This course focuses on the accuracy of math answers with proper reasoning and grows the ability to solve problems.",
+    "longTermObjective": "Students work one to two grade levels ahead through disciplined practice rather than pressure.",
+  
+    "instructionalBackbone": {
+      "curriculum": "Saxon Math 5/4",
+      "whyThisCurriculum": [
+        "Rigorous incremental design",
+        "Cumulative review for long-term retention",
+        "Strong emphasis on conceptual understanding and accuracy"
+      ]
+    },
+  
+    "formatDetails": {
+      "format": "In person",
+      "sessionLengthMinutes": 90,
+      "maxClassSize": 4,
+      "smallGroupBenefit": "Precise pacing, close monitoring, and individualized academic support."
+    },
+  
+    "placementAndPacing": {
+      "placementAssessment": true,
+      "placementApproach": "Students may be placed slightly below grade level to ensure confidence, stability, and consistent success.",
+      "accelerationApproach": "Reinforce foundations early so students can accelerate smoothly and sustainably."
+    },
+  
+    "coreTrainingFocus": [
+      "Multi-digit multiplication and long division, including division with remainders",
+      "Fraction foundations and operations, including equivalent fractions, comparison, simplification, and computation",
+      "Decimal place value and decimal operations with emphasis on accuracy",
+      "Ratios, percentages, and introductory proportional reasoning for pre-algebra readiness",
+      "Multi-step word problems that require translating language into structured mathematical steps"
+    ],
+  
+    "accuracyThenSpeed": "Speed is trained only after accuracy and understanding are secure; correctness and clarity come before efficiency.",
+  
+    "homework": {
+      "required": true,
+      "expectedPerDayMinutes": 30,
+      "notes": "Homework reinforces both accuracy and speed, with accuracy taking priority."
+    },
+  
+    "assessment": {
+      "ongoing": true,
+      "dailyInClassPractice": "Immediate feedback through daily guided practice.",
+      "weeklyQuizzesOrExams": true,
+      "individualizedSupplementalPractice": "Assigned individually based on assessment results and performance data."
+    },
+  
+    "parentCommunication": {
+      "weeklyProgressReports": true,
+      "purpose": "Ensures accountability, transparency, and consistent communication with families."
+    },
+  
+    "endOfCourseOutcomes": [
+      "Solve complex multi-step arithmetic and word problems independently and accurately",
+      "Demonstrate strong understanding of fractions and mental math strategies",
+      "Explain mathematical reasoning clearly and confidently",
+      "Maintain focus and persistence when solving challenging problems",
+      "Transition confidently into higher-level or accelerated math coursework"
+    ],
+  
+    "studentFit": {
+      "designedFor": [
+        "Students who can attend consistently",
+        "Students willing to complete daily practice",
+        "Students who thrive in structured, academically focused environments"
+      ],
+      "notAppropriateFor": [
+        "Students who struggle significantly with focus during instruction",
+        "Students unwilling to practice outside of class"
+      ],
+      "note": "Instruction is academic and structured; behavior management is not part of the program."
+    },
+  
+    "whatThisCourseDoesNotPromise": [
+      "Guaranteed placement into gifted or specialty programs",
+      "Progress without consistent effort and practice",
+      "Accommodation for special educational needs beyond the scope of the course design"
+    ],
+  
+    "studentsWillLearn": [
+      "Multiply and divide multi-digit numbers accurately",
+      "Work confidently with fractions, decimals, ratios, and percentages",
+      "Translate complex word problems into clear mathematical steps",
+      "Explain reasoning and strategies with clarity and confidence"
+    ],
+  
+    "idealFor": [
+      "Students with solid basics who are ready for deeper reasoning",
+      "Students preparing for pre-algebra style thinking",
+      "Learners who benefit from structure and accountability"
+    ]
+  },
+
+  {
+    "id": "level3",
+    "level": "Level 3",
+    "gradeRange": "Iron",
+    "title": "Precision Arithmetic & Fraction Mastery",
+  
+    "banner": "../assets/level2.png",
+    "duration": "20 weeks",
+    "sessionsPerWeek": 2,
+  
+    "targetGrades": "Grades 5–6",
+    "courseTitleFull": "Accelerated Math – Level 3: Iron",
+    "coursePhilosophy": "This course treats mathematics as a skill to be trained through disciplined repetition, precision, and independence rather than speed or pressure.",
+    "longTermObjective": "Students work one to two grade levels ahead through consistency, mastery, and elimination of foundational gaps.",
+  
+    "instructionalBackbone": {
+      "curriculum": "Saxon Math 6/5",
+      "whyThisCurriculum": [
+        "Demanding incremental structure",
+        "Strong cumulative review",
+        "Mastery through disciplined repetition"
+      ]
+    },
+  
+    "formatDetails": {
+      "format": "In person",
+      "sessionLengthMinutes": 90,
+      "maxClassSize": 4,
+      "smallGroupBenefit": "Close analysis of student work, precise pacing, and individualized academic guidance."
+    },
+  
+    "placementAndPacing": {
+      "placementAssessment": true,
+      "placementApproach": "Students may be placed below grade level intentionally to eliminate gaps and build stability, confidence, and mastery.",
+      "accelerationApproach": "Steady and sustainable acceleration through accuracy and consistency."
+    },
+  
+    "coreTrainingFocus": [
+      "Multi-digit multiplication and long division with increasing numerical complexity",
+      "Fraction mastery including equivalence, comparison, simplification, and operations",
+      "Decimal operations with strong place-value precision",
+      "Ratio, percent, and proportional reasoning foundations",
+      "Multi-step word problems requiring translation, planning, and execution"
+    ],
+  
+    "accuracyThenSpeed": "Correctness and understanding are established first; speed develops naturally after mastery.",
+  
+    "homework": {
+      "required": true,
+      "expectedPerDayMinutes": 30,
+      "notes": "Daily practice reinforces retention and supports steady acceleration."
+    },
+  
+    "assessment": {
+      "ongoing": true,
+      "dailyInClassPractice": "Immediate feedback through guided practice and correction.",
+      "weeklyQuizzesOrExams": true,
+      "individualizedSupplementalPractice": "Assigned based on performance data and skill gaps."
+    },
+  
+    "parentCommunication": {
+      "weeklyProgressReports": true,
+      "purpose": "Maintain accountability and transparency throughout the program."
+    },
+  
+    "endOfCourseOutcomes": [
+      "Solve complex multi-step arithmetic and word problems with independence and accuracy",
+      "Demonstrate strong command of fractions, decimals, ratios, and proportional reasoning",
+      "Explain mathematical thinking with clarity and precision",
+      "Maintain persistence and focus through demanding academic work",
+      "Transition confidently into pre-algebra or higher-level accelerated math coursework"
+    ],
+  
+    "studentFit": {
+      "designedFor": [
+        "Students who can attend consistently",
+        "Students willing to complete daily practice",
+        "Students who thrive in structured, high-expectation academic environments"
+      ],
+      "notAppropriateFor": [
+        "Students who struggle significantly with sustained focus",
+        "Students unwilling to practice outside class"
+      ],
+      "note": "Instruction is academic and structured; behavior management is not a component of the program."
+    },
+  
+    "whatThisCourseDoesNotPromise": [
+      "Guaranteed placement into gifted or specialty programs",
+      "Progress without consistent effort and practice",
+      "Accommodation for special educational needs beyond course scope"
+    ],
+  
+    "studentsWillLearn": [
+      "Execute multi-digit multiplication and division accurately",
+      "Master fraction and decimal operations",
+      "Develop proportional reasoning and percent understanding",
+      "Translate and solve complex word problems",
+      "Work independently while maintaining precision"
+    ],
+  
+    "idealFor": [
+      "Students ready to move beyond basic competence",
+      "Learners seeking mathematical maturity and independence",
+      "Students preparing for pre-algebra acceleration"
+    ]
+  },
+
+  {
+    "id": "level4",
+    "level": "Level 4",
+    "gradeRange": "Steel",
+    "title": "Pre-Algebra Foundations & Proportional Reasoning",
+  
+    "banner": "../assets/level4.png",
+    "duration": "20 weeks",
+    "sessionsPerWeek": 2,
+  
+    "targetGrades": "Grades 6–7",
+    "courseTitleFull": "Accelerated Math – Level 4: Steel",
+    "coursePhilosophy": "This course treats mathematics as a skill to be trained through rigor, precision, and symbolic reasoning rather than speed or memorization.",
+    "longTermObjective": "Students work one to two grade levels ahead with confidence earned through mastery and elimination of skill gaps.",
+  
+    "instructionalBackbone": {
+      "curriculum": "Saxon Math 7/6",
+      "whyThisCurriculum": [
+        "Strong rigor and cumulative structure",
+        "Precision-focused incremental learning",
+        "Consistent review to reinforce conceptual understanding"
+      ]
+    },
+  
+    "formatDetails": {
+      "format": "In person",
+      "sessionLengthMinutes": 90,
+      "maxClassSize": 4,
+      "smallGroupBenefit": "Immediate correction of misconceptions, close monitoring, and deliberate pacing."
+    },
+  
+    "placementAndPacing": {
+      "placementAssessment": true,
+      "placementApproach": "Students may be placed below grade level to ensure mastery of prerequisite skills and prevent compounding gaps.",
+      "accelerationApproach": "Strengthen foundations first, then accelerate into abstract mathematics."
+    },
+  
+    "coreTrainingFocus": [
+      "Advanced fraction, decimal, and percent operations including conversions",
+      "Ratio, rate, and proportional reasoning",
+      "Integer concepts and negative numbers",
+      "Introductory algebraic thinking with variables and expressions",
+      "Complex multi-step word problems requiring abstraction and verification"
+    ],
+  
+    "accuracyThenSpeed": "Precision and logical consistency are prioritized; speed develops gradually after mastery.",
+  
+    "homework": {
+      "required": true,
+      "expectedPerDayMinutes": 30,
+      "notes": "Daily practice reinforces conceptual understanding and accuracy."
+    },
+  
+    "assessment": {
+      "ongoing": true,
+      "dailyInClassPractice": "Diagnostic feedback through guided correction.",
+      "weeklyQuizzesOrExams": true,
+      "individualizedSupplementalPractice": "Assigned based on performance data and observed gaps."
+    },
+  
+    "parentCommunication": {
+      "weeklyProgressReports": true,
+      "purpose": "Maintain accountability and transparency."
+    },
+  
+    "endOfCourseOutcomes": [
+      "Solve advanced fraction, decimal, percent, and ratio problems accurately",
+      "Work confidently with variables, expressions, and introductory equations",
+      "Translate complex word problems into organized mathematical solutions",
+      "Maintain persistence through abstract mathematical reasoning",
+      "Transition confidently into full pre-algebra coursework"
+    ],
+  
+    "studentFit": {
+      "designedFor": [
+        "Students who can attend consistently",
+        "Students willing to complete daily practice",
+        "Students who thrive in structured academic environments"
+      ],
+      "notAppropriateFor": [
+        "Students with significant focus challenges",
+        "Students unwilling to practice outside class"
+      ],
+      "note": "Instruction is academic and structured; behavior management is not included."
+    },
+  
+    "whatThisCourseDoesNotPromise": [
+      "Guaranteed placement into gifted programs",
+      "Progress without consistent effort",
+      "Accommodation for special educational needs beyond course scope"
+    ],
+  
+    "studentsWillLearn": [
+      "Apply proportional reasoning across multiple contexts",
+      "Interpret and solve introductory algebraic equations",
+      "Work with integers and number lines confidently",
+      "Organize and verify complex multi-step solutions"
+    ],
+  
+    "idealFor": [
+      "Students transitioning from arithmetic to pre-algebra",
+      "Learners seeking structured mathematical rigor",
+      "Students preparing for accelerated middle-school mathematics"
+    ]
+  },
+
+  {
+    "id": "level5",
+    "level": "Level 5",
+    "gradeRange": "Platinum",
+    "title": "Algebra Readiness & Abstract Reasoning Mastery",
+  
+    "banner": "../assets/level5.png",
+    "duration": "20 weeks",
+    "sessionsPerWeek": 2,
+  
+    "targetGrades": "Advanced Kids",
+    "courseTitleFull": "Accelerated Math – Level 5: Platinum",
+    "coursePhilosophy": "This course treats mathematics as a skill to be trained through precision, abstraction, and disciplined reasoning rather than memorization or shortcuts.",
+    "longTermObjective": "Students perform confidently at or above algebra-ready level through consistent mastery and structured thinking.",
+  
+    "instructionalBackbone": {
+      "curriculum": "Saxon Math 7/6",
+      "whyThisCurriculum": [
+        "Strong rigor and cumulative structure",
+        "Precision across increasingly abstract material",
+        "Consistent reinforcement of conceptual accuracy"
+      ]
+    },
+  
+    "formatDetails": {
+      "format": "In person",
+      "sessionLengthMinutes": 90,
+      "maxClassSize": 4,
+      "smallGroupBenefit": "Continuous feedback, detailed error analysis, and individualized pacing."
+    },
+  
+    "placementAndPacing": {
+      "placementAssessment": true,
+      "placementApproach": "Students may be placed at or slightly below school level to ensure total mastery and stability.",
+      "accelerationApproach": "Eliminate gaps and refine abstraction before full algebra transition."
+    },
+  
+    "coreTrainingFocus": [
+      "Advanced fraction, decimal, and percent operations including complex conversions",
+      "Ratio, rate, and proportional reasoning in multi-step contexts",
+      "Integer operations with positive and negative numbers",
+      "Algebraic foundations including variables, expressions, and order of operations",
+      "Complex multi-step word problems requiring abstraction and verification"
+    ],
+  
+    "accuracyThenSpeed": "Accuracy, structure, and understanding are established first; efficiency develops naturally afterward.",
+  
+    "homework": {
+      "required": true,
+      "expectedPerDayMinutes": 30,
+      "notes": "Daily practice strengthens precision and abstraction."
+    },
+  
+    "assessment": {
+      "ongoing": true,
+      "dailyInClassPractice": "Immediate diagnostic feedback through guided correction.",
+      "weeklyQuizzesOrExams": true,
+      "individualizedSupplementalPractice": "Assigned based on performance data and observed gaps."
+    },
+  
+    "parentCommunication": {
+      "weeklyProgressReports": true,
+      "purpose": "Ensure accountability and transparency."
+    },
+  
+    "endOfCourseOutcomes": [
+      "Accurately solve advanced fraction, decimal, percent, ratio, and integer problems",
+      "Work confidently with variables, expressions, and introductory equations",
+      "Translate complex word problems into structured mathematical models",
+      "Maintain focus and precision through sustained abstract reasoning",
+      "Transition smoothly into pre-algebra or algebra coursework"
+    ],
+  
+    "studentFit": {
+      "designedFor": [
+        "Students who can attend consistently",
+        "Students willing to complete daily practice",
+        "Students who thrive in structured academic environments"
+      ],
+      "notAppropriateFor": [
+        "Students with significant focus challenges",
+        "Students unwilling to practice outside class"
+      ],
+      "note": "Instruction is academic and structured; behavior management is not included."
+    },
+  
+    "whatThisCourseDoesNotPromise": [
+      "Guaranteed placement into gifted programs",
+      "Progress without consistent effort",
+      "Accommodation for special educational needs beyond course scope"
+    ],
+  
+    "studentsWillLearn": [
+      "Apply algebraic thinking across multiple contexts",
+      "Work confidently with integers and proportional reasoning",
+      "Organize and verify complex multi-step solutions",
+      "Model real-world problems using mathematical expressions"
+    ],
+  
+    "idealFor": [
+      "Students preparing for algebra",
+      "Learners seeking refined mathematical precision",
+      "Students transitioning into abstract mathematical reasoning"
+    ]
+  }
+  
+]
