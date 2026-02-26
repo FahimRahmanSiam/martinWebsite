@@ -13,7 +13,7 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors({ origin: ["https://martinwebsite.onrender.com/","http://localhost:5173"], credentials: true })); 
+app.use(cors({ origin: ["https://martinwebsite.onrender.com","http://localhost:5173"], credentials: true })); 
 // change during deployment to - >origin: "http://localhost:5173"
 
 app.use(express.json());
@@ -26,10 +26,6 @@ app.use((req, res, next) => {
 app.use("/api/students", studentRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/tuition", tuitionRoutes);
-
-
-
-app.get("/", (req, res) => res.send("Backend is running ✅"));
 
 const __dirname = path.resolve()
 app.use(express.static(path.join(__dirname,"/mathWebsite/dist")));
