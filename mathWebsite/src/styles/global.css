@@ -2557,3 +2557,301 @@
   background: rgba(239, 68, 68, 0.28);
 }
 
+
+
+/* =======================================================
+   RESPONSIVE IMPROVEMENTS (Desktop unchanged)
+   Add this at the very bottom of the CSS file
+======================================================= */
+
+/* Prevent horizontal scroll on small devices (common with absolute/fixed elements) */
+@media (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .main-content {
+    padding: 1.75rem 1.25rem 2.5rem;
+  }
+
+  /* Fix accidental selector: you used .navbar in a media query, but actual class is .nav-bar */
+  .nav-bar {
+    padding: 0.9rem 1.25rem;
+  }
+
+  /* Home hero spacing */
+  .hero-section {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+
+  .hero-title {
+    font-size: 2.8rem;
+  }
+
+  .hero-subtext {
+    font-size: 1.15rem;
+  }
+
+  /* Keep teacher image from overflowing on iPad */
+  .hero-teacher-img {
+    width: 380px;
+    height: 380px;
+    max-width: 100%;
+  }
+
+  /* Flyers: keep 2 columns on tablets for better use of space */
+  .flyer-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.4rem;
+  }
+
+  /* Contact/enroll: stop absolute cartoon from causing overflow on tablets */
+  .cartoon-box {
+    position: static;
+    left: auto;
+  }
+
+  .cartoon-img {
+    max-width: 460px;
+    width: 100%;
+  }
+
+  /* Blog detail wrapper: remove fixed width */
+  .detail-wrapper {
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  /* Large fixed image heights: reduce on tablets */
+  .blog-featured-image {
+    height: 420px;
+  }
+  .detail-hero img {
+    height: 420px;
+  }
+
+  /* Courses banner wrap hard-codes height */
+  .course-banner-wrap img {
+    height: auto;
+    max-height: 360px;
+  }
+}
+
+/* iPad / tablets (portrait & smaller tablets) */
+@media (max-width: 900px) {
+  /* Navbar already hides links at 900px; tighten spacing */
+  .nav-logo-text {
+    font-size: 1.55rem;
+  }
+
+  .mobile-menu {
+    top: 70px;
+    padding: 1rem 1.25rem;
+  }
+
+  /* Home hero */
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .hero-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-title {
+    font-size: 2.4rem;
+  }
+
+  .hero-subtext {
+    font-size: 1.08rem;
+  }
+
+  .wave-bg {
+    height: 460px;
+  }
+
+  /* Gallery: slightly smaller tiles */
+  .gallery-grid {
+    gap: 1.4rem;
+  }
+  .gallery-img {
+    height: 220px;
+  }
+
+  /* Flyer images: avoid huge empty vertical space */
+  .flyer-image {
+    height: auto;
+    max-height: 420px;
+  }
+
+  /* Courses: ensure pills/hints don’t collide on smaller widths */
+  .course-level-pill {
+    left: 1rem;
+    bottom: 1rem;
+    font-size: 0.85rem;
+  }
+  .expand-hint {
+    right: 1rem;
+    bottom: 1rem;
+    font-size: 0.78rem;
+  }
+
+  /* Contact form: remove rigid width on tablets */
+  .enroll-form {
+    width: 100%;
+    max-width: 720px;
+  }
+
+  /* Admin & Tuition search bars: prevent overflow */
+  .admin-search,
+  .tu-search {
+    min-width: 220px;
+    width: 100%;
+    max-width: 360px;
+  }
+}
+
+/* Phones */
+@media (max-width: 600px) {
+  .main-content {
+    padding: 1.25rem 1rem 2rem;
+  }
+
+  /* Navbar */
+  .nav-bar {
+    padding: 0.85rem 1rem;
+  }
+  .nav-logo-text {
+    font-size: 1.35rem;
+  }
+  .mobile-item {
+    font-size: 1.05rem;
+  }
+
+  /* Home */
+  .wave-bg {
+    height: 420px;
+    border-bottom-left-radius: 50% 12%;
+    border-bottom-right-radius: 50% 12%;
+  }
+  .hero-title {
+    font-size: 2.05rem;
+    line-height: 1.18;
+  }
+  .hero-subtext {
+    font-size: 1.02rem;
+  }
+  .value-list {
+    font-size: 1.05rem;
+    padding-left: 0.5rem;
+  }
+  .hero-teacher-img {
+    width: 280px;
+    height: 280px;
+  }
+
+  /* Gallery */
+  .gallery-title,
+  .focus-title,
+  .flyer-title {
+    font-size: 2rem;
+  }
+  .gallery-img {
+    height: 200px;
+  }
+
+  /* Flyers: single column is already set at 900px, keep it */
+  .flyer-container {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  /* Pricing */
+  .pricing-wrapper {
+    padding: 3rem 1rem;
+  }
+  .pricing-title {
+    font-size: 2.3rem;
+  }
+
+  /* Contact form: make the two inputs stack */
+  .form-row {
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+
+  /* Courses */
+  .courses-title {
+    font-size: 2.1rem;
+  }
+  .course-body {
+    padding: 1.35rem 1.2rem 1.6rem 1.2rem;
+  }
+  .course-heading {
+    font-size: 1.55rem;
+  }
+  .course-meta {
+    gap: 0.6rem;
+  }
+  .course-meta span {
+    font-size: 0.85rem;
+  }
+
+  /* Blog */
+  .blog-featured-image {
+    height: 300px;
+  }
+  .detail-hero img {
+    height: 320px;
+  }
+
+  /* Footer logo/image */
+  .footer-section img {
+    width: 160px;
+    height: 160px;
+    max-width: 100%;
+  }
+}
+
+/* Small phones */
+@media (max-width: 420px) {
+  .hero-title {
+    font-size: 1.85rem;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: stretch;
+  }
+
+  .course-level-pill,
+  .expand-hint {
+    padding: 0.38rem 0.75rem;
+  }
+
+  .blog-sidebar-item {
+    grid-template-columns: 85px minmax(0, 1fr);
+  }
+
+  .admin-topbar,
+  .tu-topbar {
+    padding: 14px 14px;
+  }
+
+  .admin-actions,
+  .tu-actions {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+}
